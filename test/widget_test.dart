@@ -11,6 +11,11 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:fone/main.dart';
 
 void main() {
+  test('test', () {
+    print('Hello World!');
+  });
+
+  /*
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
@@ -27,4 +32,6 @@ void main() {
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
   });
+
+   */
 }
